@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Andrew's Game Hub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0c10;
+      color: #c5c6c7;
+    }
+    header {
+      background: #1f2833;
+      padding: 20px;
+      text-align: center;
+      color: #66fcf1;
+    }
+    nav {
+      background: #0b0c10;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #c5c6c7;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #66fcf1;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 15px;
+    }
+    .game-card {
+      background: #1f2833;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 15px;
+      border: 1px solid #45a29e;
+    }
+    .game-card h2 {
+      margin-top: 0;
+      color: #66fcf1;
+    }
+    .game-card p {
+      margin: 5px 0 10px;
+    }
+    .game-card a {
+      display: inline-block;
+      padding: 8px 12px;
+      background: #45a29e;
+      color: #0b0c10;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    .game-card a:hover {
+      background: #66fcf1;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      color: #c5c6c7;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Andrew's Game Hub</h1>
+    <p>Play, explore, and share your favorite games.</p>
+  </header>
+
+  <nav>
+    <a href="#featured">Featured</a>
+    <a href="#all-games">All Games</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <div class="container">
+    <section id="featured">
+      <h2>Featured Game</h2>
+      <div class="game-card">
+        <h2>Minecraft PvP Arena</h2>
+        <p>Custom PvP map with bridges, kits, and fast fights.</p>
+        <a href="#">Play / Download</a>
+      </div>
+    </section>
+
+    <section id="all-games">
+      <h2>All Games</h2>
+
+      <div class="game-card">
+        <h2>Parkour Challenge</h2>
+        <p>Speedrun parkour with checkpoints and timer.</p>
+        <a href="#">Play / Download</a>
+      </div>
+
+      <div class="game-card">
+        <h2>AFK Jump Machine Showcase</h2>
+        <p>Watch redstone contraptions and AFK builds in action.</p>
+        <a href="#">Play / Download</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About This Site</h2>
+      <p>
+        This is Andrew's game website—built to host maps, mini‑games, and
+        cool projects. Add more cards as you create new games.
+      </p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2026 Andrew's Game Hub
+  </footer>
+</body>
+</html>
